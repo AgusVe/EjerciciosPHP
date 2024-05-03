@@ -1,0 +1,141 @@
+body{
+font-family:sans-serif;
+background-color: #202327;
+color: #eff3f4;
+    text-align: justify;
+}
+
+.div-pdf{
+    display: flex;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.nombreApellido{
+    font-weight: bold;
+    text-align: center;
+}
+.nombreApellido a{
+    text-decoration: none;
+    color:#eff3f4;
+}
+.nombreApellido a:hover{
+color: #dc120c;
+
+}
+.barra-navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+.barra-navegacion ul {
+    padding: 0px;
+}
+
+.barra-navegacion ul li{
+    display: inline-block;
+    margin: 0 28px; /* ajuste el valor de margen según su preferencia */
+    padding: 0;
+    width: 9%;
+    text-align: center;
+
+}
+.barra-navegacion ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #eff3f4;
+
+}
+.barra-navegacion ul li a:hover{
+  color:#dc120c;
+}
+
+
+.div-ejercicio{
+background-color: #333639;
+margin-right: 25%;
+margin-left: 25%;
+margin-top: 30px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+
+border-radius: 30px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.ejercicio-num{
+    margin-bottom: 0px;
+}
+.enunciado{
+    width: 75%;
+    margin-bottom: 0px;
+
+}
+.formulario{
+    margin-top: -1em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.campo-form{
+    background: #202327;
+    color:#eff3f4;
+    width: 80%;
+    padding: 10px;
+    border-radius: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);
+    border: 1px solid #202327;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    outline: none;
+
+}
+.campo-form:focus{
+border: 1px solid #333639;
+}
+
+.boton-envio{
+    background-color:crimson;
+    color:#eff3f4;
+    font-weight: bolder;
+    width: 10em;
+    border-radius: 3%;
+    box-shadow: none;
+    border: crimson;
+    padding: 3%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.boton-envio:hover{
+background-color: #dc120c;
+}
+
+.lista-objetivos{
+    margin-right: 15%;
+    margin-left: 15%;
+
+}
+.imagenes-ejer9{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.imagenes-ejer9 img{
+    max-width: 100%;
+    max-height: 100%;
+    height: 25vh;
+    width: 40vh;
+}
+.dadosImg{
+    max-width: 100%;
+    max-height: 100%;
+    height: 25vh;
+    width: 40vh;
+}
+
